@@ -1,0 +1,7 @@
+JAVA DSA CODE:
+https://github.com/nimrod46/Data-Structures-and-Algorithms
+
+https://github.com/satya-verma/Data-Structures-and-Algorithms--using-JAVA
+
+Typescript DSA code:
+https://github.com/CoffeelessProgrammer/Data-Structures-and-Algorithms-TS/tree/master/Data-Structures
