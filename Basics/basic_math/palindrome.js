@@ -1,16 +1,21 @@
-function palindromeChecker(number_one) {
-  let x = number_one;
-  let y = number_one.toString().split("").reverse().join("");
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function (x) {
+  if (x < 0) return false;
+  let num = x;
+  let reverse = 0; // reverse*10 + r
 
-  let z = parseInt(y, 10);
-  if (x === z) {
-    return "Palindrome";
-  } else {
-    return "Not a Palindrome";
+  while (num != 0) {
+    const reminder = num % 10;
+    reverse = reverse * 10 + reminder;
+
+    num = parseInt(num / 10);
   }
-}
 
-let palindrome = palindromeChecker(111);
-let palindrome_one = palindromeChecker(121);
-console.log(palindrome);
-console.log(palindrome_one);
+  return x == reverse;
+};
+
+// Time complexity is O(N);
+// Space Complexity is O(1);
