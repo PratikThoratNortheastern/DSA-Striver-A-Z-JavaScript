@@ -1,8 +1,8 @@
 function reverseNumber(num) {
   let reversedString = num.toString().split("").reverse().join("");
-
+  console.log(typeof reversedString);
   let reversedNumber = parseInt(reversedString, 10);
-
+  console.log(typeof reversedNumber);
   return reversedNumber;
 }
 
