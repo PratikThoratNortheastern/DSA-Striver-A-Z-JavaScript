@@ -5,3 +5,9 @@ https://github.com/satya-verma/Data-Structures-and-Algorithms--using-JAVA
 
 Typescript DSA code:
 https://github.com/CoffeelessProgrammer/Data-Structures-and-Algorithms-TS/tree/master/Data-Structures
+
+STEPS TO SOLVE LC PROBLEMS:
+
+=> Simplify the problem: Leetcode problems have a lot of fluff which hide the real details. In a nutshell, leetcode problems are same in nature where we are given an input. We do something with the input to convert it in a desired output. Ex: The inputs are XXX we do YYY to the input and get ZZZ as output. This is all that you need to do when solving questions 
+
+=> Pattern Recognition: LC is just pattern recognition. Be familiar with these concepts.
